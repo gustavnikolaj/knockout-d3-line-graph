@@ -1,0 +1,19 @@
+{
+  "name": "knockout-d3",
+  "version": "0.0.1",
+  "description": "Knockout bindings for d3.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "author": "Gustav Nikolaj Olsen <gustavnikolaj@gmail.com>",
+  "license": "BSD 3-Clause",
+  "dependencies": {
+      "knockout": "=3.1.0",
+      "d3": "=3.4.4"
+  }
+}
