@@ -10,19 +10,28 @@
 </head>
 <body>
 
-    <h1>Knockout D3 Examples</h1>
+    <h1>Knockout D3 Line Graph Examples</h1>
 
-    <div class="example">
+    <div class="exampleContainer">
+        <p>
+            This example renders an observable array as a graph.
+        </p>
         <div>
             <button data-bind="click: example1Add">
                 Add a random number between 0 and 9
             </button>
         </div>
-        <div id="Example1"
+        <div id="Example1" class="example"
              data-bind="d3LineGraph: example1"></div>
     </div>
 
-    <div id="Example2" class="example">
+    <div class="exampleContainer">
+        <p>
+            This example renders the same observable array as above,
+            but will only ever render the last 10 elements.
+        </p>
+        <div id="Example2" class="example"
+             data-bind="d3LineGraph: example2"></div>
     </div>
 
     <script src="examples.js"></script>
