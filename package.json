@@ -1,5 +1,5 @@
 {
-  "name": "knockout-d3",
+  "name": "knockout-d3-line-graph",
   "version": "0.0.1",
   "description": "Knockout bindings for d3.",
   "main": "index.js",
