@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Knockout D3 Examples</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="../vendor/knockout.js"></script>
+    <script src="../vendor/d3.js"></script>
+    <script src="../lib/knockout-d3.js"></script>
+</head>
+<body>
+
+    <h1>Knockout D3 Examples</h1>
+
+    <div class="example">
+        <div>
+            <button data-bind="click: example1Add">
+                Add a random number between 0 and 9
+            </button>
+        </div>
+        <div id="Example1"
+             data-bind="d3LineGraph: example1"></div>
+    </div>
+
+    <div id="Example2" class="example">
+    </div>
+
+    <script src="examples.js"></script>
+
+</body>
+</html>
