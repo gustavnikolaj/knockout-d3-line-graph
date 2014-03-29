@@ -9,6 +9,11 @@ h1 {
     text-align: center;
 }
 
+button {
+    display: block;
+    margin: 10px auto;
+}
+
 .exampleContainer {
     background: white;
     border: 1px solid #ccc;
@@ -29,7 +34,7 @@ h1 {
 }
 
 #Example2 svg {
-    background: #bada55;
+    background: #336699;
     border: 1px solid #000;
 }
 
