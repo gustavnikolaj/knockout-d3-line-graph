@@ -1,8 +1,12 @@
-# Knockout.js binding making a line graph with D3.js
+# Knockout.js D3 Line Graph
+
+Making a pretty D3.js graph with a knockout binding.
 
 ```html
 <div data-bind="d3LineGraph: observableArray"></div>
 ```
+
+Styling is handled with CSS.
 
 # Examples
 
