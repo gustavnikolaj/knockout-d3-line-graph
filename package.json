@@ -2,7 +2,6 @@
   "name": "knockout-d3-line-graph",
   "version": "0.0.1",
   "description": "Knockout bindings for d3.",
-  "main": "index.js",
   "author": "Gustav Nikolaj Olsen <gustavnikolaj@gmail.com>",
   "license": "BSD 3-Clause",
   "dependencies": {
