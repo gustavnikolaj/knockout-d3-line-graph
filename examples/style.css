@@ -49,3 +49,9 @@ button {
     fill: rgba(255,255,255,0.10);
     stroke-width: 0;
 }
+
+.axis path,
+.axis line {
+		fill:none;
+		stroke:black;
+}
