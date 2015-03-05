@@ -38,14 +38,25 @@ button {
     border: 1px solid #000;
 }
 
+#Example3 svg .plot .bg {
+    background: #336699;
+    fill: #338800 !important;
+}
+
 .path {
-	stroke: rgba(255,255,255,0.25);
+    stroke: rgba(255,255,255,0.25);
     stroke-linejoin: round;
-	stroke-width: 1.5;
-	fill: none;
+    stroke-width: 1.5;
+    fill: none;
 }
 
 .area {
     fill: rgba(255,255,255,0.10);
     stroke-width: 0;
+}
+
+.axis path,
+.axis line {
+    fill:none;
+    stroke:black;
 }
