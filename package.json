@@ -4,8 +4,15 @@
   "description": "Knockout bindings for d3.",
   "author": "Gustav Nikolaj Olsen <gustavnikolaj@gmail.com>",
   "license": "BSD 3-Clause",
+  "scripts": {
+    "lint": "jshint . && jscs ."
+  },
   "dependencies": {
       "knockout": "=3.1.0",
       "d3": "=3.4.4"
+  },
+  "devDependencies": {
+    "jscs": "1.11.3",
+    "jshint": "2.6.3"
   }
 }
