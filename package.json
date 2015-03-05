@@ -7,6 +7,9 @@
   "scripts": {
     "lint": "jshint . && jscs ."
   },
+  "contributors": [
+    "Sander van Vliet <sauron@barad-dur.nl>"
+  ],
   "dependencies": {
     "knockout": "=3.1.0",
     "d3": "=3.4.4"
