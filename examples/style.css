@@ -38,6 +38,12 @@ button {
     border: 1px solid #000;
 }
 
+#Example3 svg .plot .bg {
+    background: #336699;
+		fill: #338800 !important;
+    border: 1px solid #000;
+}
+
 .path {
 	stroke: rgba(255,255,255,0.25);
     stroke-linejoin: round;
