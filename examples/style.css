@@ -41,7 +41,6 @@ button {
 #Example3 svg .plot .bg {
     background: #336699;
     fill: #338800 !important;
-    border: 1px solid #000;
 }
 
 .path {
