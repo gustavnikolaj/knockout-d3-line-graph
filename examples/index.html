@@ -48,6 +48,27 @@
              data-bind="d3LineGraph: { value: example1, showAxes: true }"></div>
     </div>
 
+    <div class="exampleContainer">
+        <p>
+            This example demonstrates binding to complex data where the binding needs to be
+            told how to get the x- and y-value. The data type looks like:
+        </p>
+        <pre>
+            { position: new Date(2015, 1, 1), value: 11 }
+        </pre>
+        <div id="Example4" 
+             class="example"
+             data-bind="d3LineGraph: { 
+                value: complexData,
+                showAxes: true, 
+                xScale: d3.time.scale, 
+                x: function (d, i) { return d.position; },
+                y: function (d) { return d.value; },
+                xAxisOptions: function (axis) { axis.tickFormat(d3.time.format('%d')); }
+            }">
+        </div>
+    </div>
+
     <script src="examples.js"></script>
 
 </body>
