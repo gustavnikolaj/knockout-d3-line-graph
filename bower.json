@@ -1,0 +1,24 @@
+{
+  "name": "knockout-d3-line-graph",
+  "version": "1.0.0",
+  "main": "lib/knockout-d3-line-graph.js",
+  "license": "BSD 3-Clause",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "examples",
+    "vendor",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "knockoutjs": "~3.2.0",
+    "d3": "=3.4.4"
+  },
+  "authors": [
+    "Gustav Nikolaj Olsen <gustavnikolaj@gmail.com>"
+  ]
+}
