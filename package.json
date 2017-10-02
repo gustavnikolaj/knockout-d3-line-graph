@@ -11,7 +11,7 @@
     "Sander van Vliet <sauron@barad-dur.nl>"
   ],
   "dependencies": {
-    "d3": "=3.4.4",
+    "d3": "^3.5.17",
     "knockout": "^3.4.2"
   },
   "devDependencies": {
