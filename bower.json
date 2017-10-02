@@ -14,8 +14,8 @@
     "package.json"
   ],
   "dependencies": {
-    "knockoutjs": "~3.2.0",
-    "d3": "=3.4.4"
+    "knockoutjs": "~3.4.2",
+    "d3": "~3.5.17"
   },
   "authors": [
     "Gustav Nikolaj Olsen <gustavnikolaj@gmail.com>",
